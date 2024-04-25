@@ -1,0 +1,66 @@
+/* In src/components/Home.css */
+.home-container {
+    text-align: center;
+}
+
+.hero-section {
+    padding: 40px 20px;
+    background-color: #96b7dc;
+    /* Example primary color */
+    color: white;
+}
+
+.features-section {
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.feature {
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    /* Light background for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+.feature h3 {
+    color: #007bff;
+    /* Accent color for headings */
+}
+
+.feature p {
+    color: #333;
+    /* Dark grey for text */
+}
+
+.feature a {
+    background-color: #28a745;
+    /* Secondary button color */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.feature a:hover {
+    background-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}

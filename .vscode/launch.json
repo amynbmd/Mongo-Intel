@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/frontend"
+        },
+        {
+            "name": "Python: FastAPI backend",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/backend/app", //Absolute path to backend/app directory
+            "args": [
+                "server:app",
+                "--reload",
+                "--port",
+                "8000"
+            ]
+        },
+        {
+            "name": "Python: FastAPI DB",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/db_server/app", //Absolute path to db_server/app directory
+            "args": [
+                "main:app",
+                "--reload",
+                "--port",
+                "8001"
+            ]
+        }
+    ]
+}

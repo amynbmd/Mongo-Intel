@@ -1,0 +1,10 @@
+pytest
+fastapi
+uvicorn[standard]
+motor
+requests
+nl2query
+spacy
+numpy
+pandas
+scikit-learn
