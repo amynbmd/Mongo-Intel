@@ -4,7 +4,7 @@
 
 ### High-level project description:
 
-•	Create a mapping system that allows users to track the histories of identified entities in specified areas. Extrapolate from that data to make predictions regarding the future locations of these entities at a given point in the future.
+•	Create a mapping system that allows users to track the histories of identified entities in specified areas. Extrapolate from that data to make predictions regarding the future locations of these entities at a given point in the future. <br>
 •	MongoDB-based application that can store various data types streamed to it.
 •	This application is used to aid teams in collaborating and coordinating their operations, especially in an emergency management/disaster relief environment. 
 •	It is important to be able to understand where teams have been, what types of communications and coordination have taken place, and what future events may take place for a variety of reasons.
